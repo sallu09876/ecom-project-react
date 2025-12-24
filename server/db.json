@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "user",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "orders": []
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "role": "user",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001"
+      },
+      "orders": [
+        {
+          "id": 1762002129155,
+          "items": [
+            {
+              "id": "ded4",
+              "pid": 1,
+              "title": "Smartphone A12",
+              "price": 15999,
+              "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+              "quantity": 3
+            },
+            {
+              "id": "2270",
+              "pid": 2,
+              "title": "Laptop Pro X",
+              "price": 79999,
+              "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 2,
+          "totalPrice": 127996,
+          "paymentMethod": "cod",
+          "shippingAddress": {
+            "name": "Anupama TM",
+            "phone": "09562119589",
+            "house": "thekkemoothedath house,kizhakkummuri post",
+            "city": "kozhikode",
+            "pincode": "653"
+          },
+          "status": "confirmed",
+          "date": "1/11/2025, 6:32:09 pm"
+        }
+      ]
+    },
+    {
+      "id": "1d15",
+      "name": "Anupama TM",
+      "email": "anupamaunni612@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "5f2a",
+      "name": "Salman",
+      "email": "s@gmail.com",
+      "password": "123",
+      "role": "user",
+      "address": "",
+      "orders": [
+        {
+          "id": 1766500617176,
+          "items": [
+            {
+              "id": "3f26",
+              "pid": 1,
+              "title": "Smartphone A12",
+              "price": 15999,
+              "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 2,
+          "totalPrice": 15999,
+          "paymentMethod": "card",
+          "shippingAddress": {
+            "name": "salman",
+            "phone": "8590050875",
+            "house": "123",
+            "city": "abc",
+            "pincode": "123"
+          },
+          "status": "confirmed",
+          "date": "23/12/2025, 8:06:57 pm"
+        },
+        {
+          "id": 1766560742168,
+          "items": [
+            {
+              "id": "92d6",
+              "pid": 6,
+              "title": "MacBook Pro 14",
+              "price": 219999,
+              "image": "/images/products/laptop1.jpeg",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 1,
+          "totalPrice": 219999,
+          "paymentMethod": "card",
+          "shippingAddress": {
+            "name": "faru",
+            "phone": "8590050875",
+            "house": "123",
+            "city": "abc",
+            "pincode": "123"
+          },
+          "status": "confirmed",
+          "date": "24/12/2025, 12:49:02 pm"
+        },
+        {
+          "id": 1766588716939,
+          "items": [
+            {
+              "id": "4bf0",
+              "pid": 1,
+              "title": "iPhone 17 Pro",
+              "price": 119999,
+              "image": "/images/products/mobile1.png",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 1,
+          "totalPrice": 119999,
+          "paymentMethod": "card",
+          "shippingAddress": {
+            "name": "fouzan",
+            "phone": "8590050875",
+            "house": "123",
+            "city": "abc",
+            "pincode": "123"
+          },
+          "status": "confirmed",
+          "date": "24/12/2025, 8:35:16 pm"
+        }
+      ]
+    },
+    {
+      "id": "147d",
+      "name": "farhan",
+      "email": "f@gmail.com",
+      "password": "123",
+      "role": "user",
+      "address": "",
+      "orders": [
+        {
+          "id": 1766597051241,
+          "items": [
+            {
+              "id": "a4bb",
+              "pid": 1,
+              "title": "iPhone 17 Pro",
+              "price": 119999,
+              "image": "/images/products/mobile1.png",
+              "quantity": 1
+            },
+            {
+              "id": "17bc",
+              "pid": 2,
+              "title": "Samsung Galaxy S25 Ultra",
+              "price": 99999,
+              "image": "/images/products/mobile2.jpg",
+              "quantity": 1
+            },
+            {
+              "id": "d5a5",
+              "pid": 4,
+              "title": "OnePlus 15",
+              "price": 74999,
+              "image": "/images/products/mobile4.webp",
+              "quantity": 1
+            },
+            {
+              "id": "ed85",
+              "pid": 6,
+              "title": "MacBook Pro 14",
+              "price": 219999,
+              "image": "/images/products/laptop1.jpeg",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 4,
+          "totalPrice": 514996,
+          "paymentMethod": "card",
+          "shippingAddress": {
+            "name": "farhan",
+            "phone": "+91 7356155224",
+            "house": "123",
+            "city": "abc",
+            "pincode": "123"
+          },
+          "status": "confirmed",
+          "date": "24/12/2025, 10:54:11 pm"
+        },
+        {
+          "id": 1766597102554,
+          "items": [
+            {
+              "id": "ac84",
+              "pid": 1,
+              "title": "iPhone 17 Pro",
+              "price": 119999,
+              "image": "/images/products/mobile1.png",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 1,
+          "totalPrice": 119999,
+          "paymentMethod": "cod",
+          "shippingAddress": {
+            "name": "farhan",
+            "phone": "8590050875",
+            "house": "123",
+            "city": "abc",
+            "pincode": "123"
+          },
+          "status": "confirmed",
+          "date": "24/12/2025, 10:55:02 pm"
+        }
+      ]
+    }
+  ],
+  "cart": []
+}

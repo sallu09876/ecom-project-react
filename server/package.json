@@ -1,0 +1,9 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "JSON Server for user data",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  }
+}
